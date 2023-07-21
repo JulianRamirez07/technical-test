@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #5B5B5B;
+    color: white;
+}
+
+.content-container {
+    height: calc(100vh - theme("spacing.20"));
+}
